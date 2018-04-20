@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "orderItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "OrderQueue",
+      "connection": "AzureWebJobsDashboard"
+    }
+  ],
+  "disabled": false
+}
