@@ -1,4 +1,15 @@
-class Program
+using System;
+using System.Diagnostics;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Azure.ServiceBus;
+using Microsoft.Azure.ServiceBus.Management;
+using Newtonsoft.Json;
+
+namespace sbdemo
+{
+ class Program
     {
         static void Main(string[] args)
         {
@@ -75,3 +86,4 @@ class Program
                 throw new NotImplementedException();
         }
     }
+}
